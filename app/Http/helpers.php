@@ -7,7 +7,7 @@ if (! function_exists('getcong')) {
     function getcong($key)
     {
     	 
-        $settings = Settings::findOrFail('1'); 
+        $settings = Settings::findOrFail('2'); 
 
         return $settings->$key;
     }
